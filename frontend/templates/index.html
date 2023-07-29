@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Demo Page</title>
+        {% load static %}
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="icon" href="{% static 'media/LogoTransparent_XS.png' %}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LfFwxImAAAAAHAXdZBN5FFpy0zMD1VWM_MXKNPW"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="app"></div>
+        </div>
+        <script src="{% static "js/main.js" %}"></script>
+    </body>
+</html>

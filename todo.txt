@@ -1,0 +1,7 @@
+Ellie:
+  - update unsubscribe/verify email links to use unique tokens in urls (check chatgpt convo for how)
+  - make userinterface components blocked unless session is logged in (see require login decorator)
+  - update functions with prompt changes (i.e., login fail, etc.) to match toggle form functionality of VerifyEmail.js
+  - adapt models and db pointers to postgresql not sqlite3
+  - get app working in production mode on digital ocean
+  - verify recaptcha for signup/login/subscribe etc.
